@@ -8,4 +8,6 @@ Rose kamau:software developer
 <li>CSS</li>
 <li>JS</li>
 
+# Licence $ copyright information
+
 
