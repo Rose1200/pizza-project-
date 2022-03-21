@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&display=swap");
+* {
+  font-family: "Fredoka", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+}
+body{
+  background: url(Pizza/hand.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section{
+  padding: 2rem 9%;
+}
+header {
+  background: #f9147f;
+  align-items: center;
+  padding: 1.5rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+header .navbar a {
+  margin: 0.4rem;
+  font-size: 1rem;
+  color: #122f29;
+}
+header .navbar a:hover {
+  color: #c91103;
+  padding-bottom: 2rem;
+}
+header .icons div {
+  color: #122b2f;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+header .icons div:hover {
+  color: #c91103;
+}
+.home {
+  gap: 1.5rem;
+  min-height: 100vh;
+  align-items: center;
+  background: #2f1812;
+  color: #74274b;
+}
+.home .content {
+  flex: 1 1 40rem;
+  padding-top: 6.5rem;
+}
+.home .content p{
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+.home .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 1rem;
+  animation: float 3s linear infinite;
+}
+.btn {
+  padding: 1rem 2rem;
+  border: 0.2rem solid #f9b714;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.btn:hover {
+  background-color: #c91103;
+}
+.heading span {
+  color: #f9b714;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+  50% {
+    transform: translateY(3rem);
+  }
+}
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 1.5rem;
+  background: url(Pizza/wood.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.contact .row form .inputBox {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact .row form .inputBox input {
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  text-transform: none;
+  background: none;
+}
+.contact .row form .inputBox span {
+ color: #c91103;
+ font-size: 2rem;
+ padding-left: 2rem;
+}
+@media (max-width: 900) {
+  html,
+  body {
+    font-size: 50%;
+  }
+  header {
+    padding: 2rem;
+  }
+}
+.content{
+ background: url(Pizza/hot.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+ /*
+  .README{
+    background-color: #2f1812;
+  }
