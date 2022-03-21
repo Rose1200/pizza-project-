@@ -127,11 +127,11 @@ header .icons div:hover {
   }
 }
 .content{
- background: url(Pizza/hot.jpg) no-repeat;
+background-image: -moz-linear-gradient();
   background-size: cover;
   background-position: center;
 }
- /*
+ 
   .README{
     background-color: #2f1812;
   }
